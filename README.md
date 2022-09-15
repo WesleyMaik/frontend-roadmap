@@ -13,7 +13,7 @@ Sumário
 - <a href="#Git-e-Github--">Git e GitHub</a>
 - <a href="#Typescript-">Typescript</a>
 - <a href="#NodeJS-">NodeJS</a>
-- <a href="#Bundles-e-Builders-">Bundles e Builders</a>
+- <a href="#Bundles-e-Builders--">Bundles e Builders</a>
 - <a href="#React-">React</a>
 - <a href="#Vue-">Vue</a>
 - <a href="#Frameworks-">Frameworks</a>
@@ -144,10 +144,11 @@ Node.js é um runtime Javascript que leva a renderização e processamento de c�
     - APIs
     - File System, Path, Stream
 
-## Bundles e Builders ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
+## Bundles e Builders ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 Bundles são empacotadores de módulos para Javascript. Um Bundle recebe módulos com dependências e gera ativos estáticos representando esses módulos, normalmente em HTML, CSS e Javascript.
 
-Builders são ferramentas de desenvolvimento 
+Builders são ferramentas de desenvolvimento Front-end
 
 - Canais no Youtube
     - [Matheus Battisti - Curso de Webpack 5](https://www.youtube.com/watch?v=bKk_4jtXq0Y)
+    - [Otávio Miranda - Vite + VanillaJS](https://www.youtube.com/watch?v=fR0pYguVyQA)
