@@ -110,7 +110,7 @@ Javascript is a high-level, structured and scripting programming language, respo
 
 ---
 
-## Git e Github ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+## Git and Github ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 Git is a distributed version control system, primarily used in software development, but it can be used to record edit history of any type of file.
 
 GitHub is a source code and file hosting platform with version control using Git. It allows programmers, utilities or any user registered on the platform to contribute to private and/or Open Source projects from anywhere in the world.
