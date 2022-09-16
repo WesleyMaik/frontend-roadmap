@@ -1,10 +1,12 @@
 # Front-end Roadmap
 [ Versão ![EN-US](https://img.shields.io/badge/-EN--US-red?style=flat-square) ](https://github.com/WesleyMaik/frontend-roadmap/blob/main/README-EN.md)
 
-Esse é um repositório é destinado à uma trilha de estudos baseado na minha experiência como desenvolvedor Front-end, apenas com conteúdos gratuitos.
+Esse é um repositório é destinado à uma trilha de estudos <b>baseado na minha experiência como desenvolvedor Front-end</b>, apenas com conteúdos gratuitos.
 Todos os direitos dos conteúdos são totalmente reservados aos criadores, esse repositório não tem intuito comercial.
 
 Quer colaborar com esse ropositório ou corrigir alguma informação errada? Ótimo! Todas as issues serão bem-vindas. [Clique aqui para ver as issues.](https://github.com/WesleyMaik/frontend-roadmap/issues)
+
+#### Os conteúdos marcados com ![star](https://cdn-icons-png.flaticon.com/16/1828/1828884.png) indicam que tive melhor experiência e/ou seja o mais didático que encontrei, tanto para iniciantes quanto para quem já está se desenvolvendo.
 
 ### Me siga no Twitter <a href="https://twitter.com/euwesleymaik" target="_blank">![Twitter Follow](https://img.shields.io/twitter/follow/euwesleymaik?style=social)</a>
 ---
