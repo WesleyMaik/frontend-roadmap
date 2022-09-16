@@ -1,4 +1,6 @@
 # Front-end Roadmap
+[ Versão ![EN-US](https://img.shields.io/badge/-EN--US-red?style=flat-square) ](https://github.com/WesleyMaik/frontend-roadmap/blob/main/README-EN.md)
+
 Esse é um repositório é destinado à uma trilha de estudos baseado na minha experiência como desenvolvedor Front-end, apenas com conteúdos gratuitos.
 Todos os direitos dos conteúdos são totalmente reservados aos criadores, esse repositório não tem intuito comercial.
 
@@ -96,7 +98,7 @@ Javascript é uma linguagem de programação, estruturada e de script de alto n�
 
 - Documentação
     - ![star](https://cdn-icons-png.flaticon.com/16/1828/1828884.png) [W3Schools - Javascript Tutorial.](https://www.w3schools.com/js)
-    - [MDN Web Doces - Primeiros Passos com Javascript.](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
+    - [MDN Web Docs - Primeiros Passos com Javascript.](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
 
 - Principais tópicos para aprender
     - Fetch API / AJAX (XHR)
