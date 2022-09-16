@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Front-end Roadmap - Wesley Maik</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta name="copyright" content="© 2022 Wesley Maik" />
+    <meta name="robots" content="index,nofollow">
+    <meta name="rating" content="general" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Wesley Maik">
+    <meta name="description" content="Trilha de estudos Front-end">
+    <meta name="keywords" content="sites, web, desenvolvimento, frontend">
+    <meta property="og:title" content="Front-end Roadmap - Wesley Maik" />
+    <meta property="og:description" content="Trilha de estudos Front-end">
+    <meta property="og:url" content="https://wesleymaik.github.io/frontend-roadmap" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/WesleyMaik/frontend-roadmap/main/square-thumb.jpg" />
+    <meta property="og:type" content="website" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <style>*{box-sizing: border-box;}html, body{height: 100%;margin:0;}body{width: 100%;max-width:768px;margin:auto;padding:1em;font-family: 'Poppins', 'Roboto', 'Arial', 'Tahoma';background-color: #121314;}.all{--bg:#1d1f21;--color:#fff;padding:1em;color:var(--color);background-color: var(--bg);border-radius: 8px;transition: all ease 0.5s;}.link{text-align: center;font-size: 0.9em;}.link a{display:flex;justify-content: center;align-items: center;gap:0.5em;font-weight: lighter;text-decoration: none;}a{color:rgb(65, 186, 234);}footer{text-align: center;color:#fff;background-color: #1d1f21;padding:0.5em;border-radius: 8px;}.toggle ~ .label-toggle .button.light{display: flex;}.toggle ~ .label-toggle .button.dark{display: none;}.toggle:checked ~ .label-toggle .button.light{display: none;}.toggle:checked ~ .label-toggle .button.dark{display: flex;}.label-toggle{width: fit-content;cursor: pointer;user-select: none;display: flex;justify-content: center;align-items: center;margin:0.5em auto;}.label-toggle .button{width: 32px;height: 32px;display: flex;justify-content: center;align-items: center;padding:0.5em;border-radius: 50%;}.label-toggle .button.dark{color:#1d1f21;background-color: #f0f4fa;}.label-toggle .button.light{color:#f0f4fa;background-color: #1d1f21;}.toggle:checked ~ .all{--bg:#fff;--color:#1d1f21;}</style>
+</head>
+
+<body>
+    <input id="toggle" class="toggle" type="checkbox" style="display:none" />
+    <label for="toggle" class="label-toggle">
+        <div class="button light">
+            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:currentColor;"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        </div>
+        <div class="button dark">
+            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" data-darkreader-inline-stroke="" style="--darkreader-inline-stroke:currentColor;"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </div>
+    </label>
+    <section class="all">
+        <p align="center" style="margin:0">
+            <img src="https://raw.githubusercontent.com/WesleyMaik/frontend-roadmap/main/thumb.png" alt="Cover Image" width="100%"/>
+        </p>
+        <p class="link">
+            <a target="_blank" href="https://github.com/WesleyMaik/frontend-roadmap"> <img src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png" width="18" /> WesleyMaik/frontend-roadmap</a>
+        </p>
+        <h1 id="front-end-roadmap">Front-end Roadmap</h1>
+        <p>
+            <a target="_blank" href="https://github.com/WesleyMaik/frontend-roadmap/blob/main/README-EN.md"> Versão <img src="https://img.shields.io/badge/-EN--US-red?style=flat-square" alt="EN-US"> </a>
+        </p>
+        <p>
+            Esse é um repositório é destinado à uma trilha de estudos <b>baseado na minha experiência como desenvolvedor Front-end</b>, apenas com conteúdos gratuitos.
+            Todos os direitos dos conteúdos são totalmente reservados aos criadores, esse repositório não tem intuito comercial.
+        </p>
+        <p>Quer colaborar com esse ropositório ou corrigir alguma informação errada? Ótimo! Todas as issues serão bem-vindas. <a target="_blank" href="https://github.com/WesleyMaik/frontend-roadmap/issues">Clique aqui para ver as issues.</a></p>
+        <h4>Os conteúdos marcados com <img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> indicam que tive melhor experiência e/ou seja o mais didático que encontrei, tanto para iniciantes quanto para quem já está se desenvolvendo.</h4>
+        <h3>Me siga no Twitter <a target="_blank" href="https://twitter.com/euwesleymaik" target="_blank"><img src="https://img.shields.io/twitter/follow/euwesleymaik?style=social" alt="Twitter Follow"></a></h3>
+        <hr>
+        <p>Sumário</p>
+        <ul>
+            <li><a href="#Internet">Internet</a></li>
+            <li><a href="#HTML">HTML</a></li>
+            <li><a href="#CSS">CSS</a></li>
+            <li><a href="#Javascript">Javascript</a></li>
+            <li><a href="#Git-e-Github">Git e GitHub</a></li>
+            <li><a href="#Typescript-">Typescript</a></li>
+            <li><a href="#NodeJS">NodeJS</a></li>
+            <li><a href="#Pre-Processadores-CSS">Pré-Processadores CSS</a></li>
+            <li><a href="#Bundles-e-Builders">Bundles e Builders</a></li>
+            <li><a href="#Bibliotecas-e-Frameworks">Bibliotecas e Frameworks</a>
+                <ul>
+                    <li><a href="#React">React</a></li>
+                    <li><a href="#Vue">Vue</a></li>
+                    <li><a href="#NextJS">NextJS</a></li>
+                    <li><a href="#NuxtJS">NuxtJS</a></li>
+                </ul>
+            </li>
+            <li><a href="#Mobile">Mobile</a>
+                <ul>
+                    <li><a href="#React-Native">React Native</a></li>
+                    <li><a href="#Flutter">Flutter</a></li>
+                </ul>
+            </li>
+            <li><a href="#Testes-Unitarios">Testes Unitários</a></li>
+        </ul>
+        <hr>
+        <h2 id="Internet">Internet <img src="https://cdn-icons-png.flaticon.com/24/364/364089.png" alt="Internet"></h2>
+        <p>A Internet é um sistema global de redes de computadores interligadas que utilizam um conjunto próprio de protocolos com o propósito de servir progressivamente usuários no mundo inteiro.</p>
+        <ul>
+            <li><p>Canais no Youtube</p>
+                <ul>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> <a target="_blank" href="https://www.youtube.com/watch?v=nlO5hySqJFA">Curso em Vídeo - Como a Internet funciona.</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/watch?v=PcHbyGVoqZk">Refatorando - Entendendo o Protocolo HTTP.</a></li>
+                </ul>
+            </li>
+            <li><p>Documentação</p>
+                <ul>
+                    <li><a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Basics_of_HTTP">MDN Web Docs - Visão geral de HTTP.</a></li>
+                    <li><a target="_blank" href="https://suporte.hostgator.com.br/hc/pt-br/articles/115001665133-Qual-%C3%A9-a-diferen%C3%A7a-entre-dom%C3%ADnio-e-hospedagem-">Hostgator - Diferença entre Domínio e Hospedagem.</a></li>
+                </ul>
+            </li>
+            <li><p>Principais tópicos para aprender</p>
+                <ul>
+                    <li><a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status">MDN Web Docs - Códigos de status HTTP.</a></li>
+                    <li>Domínio &amp; Hospedagem</li>
+                    <li>Servidores</li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <h2 id="HTML">HTML <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML5"></h2>
+        <p>HTML é uma linguagem marcação feita para estruturação de sites e aplicações web.</p>
+        <ul>
+            <li><p>Canais no Youtube</p>
+                <ul>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> <a target="_blank" href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n">Curso em Vídeo - Curso de HTML (Playlist).</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/watch?v=SV7TL0hxmIQ">Matheus Battisti - Aprenda HTML em 1 hora.</a></li>
+                </ul>
+            </li>
+            <li><p>Documentação</p>
+                <ul>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> <a target="_blank" href="https://www.w3schools.com/html">W3schools - HTML Tutorial.</a></li>
+                    <li><a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Getting_started">MDN Web Docs - Iniciando em HTML.</a></li>
+                </ul>
+            </li>
+            <li><p>Principais tópicos para aprender</p>
+                <ul>
+                    <li>Tags Semânticas.</li>
+                    <li>Formulários e Validações.</li>
+                    <li>Meta Tags e SEO.</li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <h2 id="CSS">CSS <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&amp;logo=css3&amp;logoColor=white" alt="CSS3"></h2>
+        <p>CSS é uma linguagem de estilo que estiliza as Tags HTML. Ela é escrita em forma de cascata e é muito simples de aprender.</p>
+        <ul>
+            <li><p>Canais no Youtube</p>
+                <ul>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> <a target="_blank" href="https://www.youtube.com/playlist?list=PL2Fdisxwzt_f5C7Mv0kg1EAHhy2VJLf1c">Programação Web - Curso de CSS (Playlist).</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/watch?v=vwbegraDXD8">Matheus Battisti - Aprenda CSS e crie um projeto.</a></li>
+                </ul>
+            </li>
+            <li><p>Documentação</p>
+                <ul>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> <a target="_blank" href="https://www.w3schools.com/css">W3Schools - CSS Tutorial.</a></li>
+                    <li><a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/Getting_started">MDN Web Docs - Iniciando em CSS.</a></li>
+                </ul>
+            </li>
+            <li><p>Principais tópicos para aprender</p>
+                <ul>
+                    <li>Box Model.</li>
+                    <li>Positions.</li>
+                    <li>Flexbox e CSS Grid.</li>
+                </ul>
+            </li>
+            <li><p>Bibliotecas CSS</p>
+                <p>
+                    Bibliotecas servem para simplificar e aumentar a produtividade na hora de estilizar suas páginas, pois elas trazem códigos pré-escritos e seu único trabalho é adicionar os nomes de suas classes.
+                    Principais bibliotecas:
+                </p>
+                <ul>
+                    <li>Bootstrap</li>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> Tailwind CSS</li>
+                    <li>Materialize CSS</li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <h2 id="Javascript">Javascript <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&amp;logo=javascript&amp;logoColor=%23F7DF1E" alt="JavaScript"></h2>
+        <p>Javascript é uma linguagem de programação, estruturada e de script de alto nível, responsável por fazer o dinamismo de sites e aplicações web.</p>
+        <ul>
+            <li><p>Canais no Youtube</p>
+                <ul>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> <a target="_blank" href="https://www.youtube.com/playlist?list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm">Curso em Vídeo - Javascript (Playlist)</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/watch?v=McKNP3g6VBA">Programação Web - Curso de Javascript (6 horas)</a></li>
+                </ul>
+            </li>
+            <li><p>Documentação</p>
+                <ul>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> <a target="_blank" href="https://www.w3schools.com/js">W3Schools - Javascript Tutorial.</a></li>
+                    <li><a target="_blank" href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/What_is_JavaScript">MDN Web Docs - Primeiros Passos com Javascript.</a></li>
+                </ul>
+            </li>
+            <li><p>Principais tópicos para aprender</p>
+                <ul>
+                    <li>Fetch API / AJAX (XHR)</li>
+                    <li>Promises &amp; Async / Await</li>
+                    <li>Arrays e Array Methods (Map, Foreach, Reduce, Filter etc)</li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <h2 id="GIT-e-Github">Git e Github <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&amp;logo=git&amp;logoColor=white" alt="Git"> <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub"></h2>
+        <p>Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.</p>
+        <p>GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.</p>
+        <ul>
+            <li><p>Canais no Youtube</p>
+                <ul>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> <a target="_blank" href="https://www.youtube.com/playlist?list=PLhkO7OMKgT_rqwGYldqcFxyN4yjFgmDh8">Rafaella Ballerini - Git e Github (Playlist)</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/watch?v=kB5e-gTAl_s">Dev Aprender - Curso de Git e Github completo</a></li>
+                </ul>
+            </li>
+            <li><p>Documentação</p>
+                <ul>
+                    <li><a target="_blank" href="https://git-scm.com/docs">Documentação oficial do Git</a></li>
+                    <li><a target="_blank" href="https://docs.github.com/pt/get-started/quickstart">Documentação oficial do Github</a></li>
+                </ul>
+            </li>
+            <li><p>Principais tópicos para aprender</p>
+                <ul>
+                    <li>Comandos Git</li>
+                    <li>Git Commit limpo</li>
+                    <li>Repositórios &amp; Pull Requests</li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <h2 id="Typescript">Typescript <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript"></h2>
+        <p>Typescript é uma linguagem de programação derivada do Javascript. É um superconjunto de novas utilidades e forte tipagem opcional. É uma tendência se utilizar do Typescript para trabalhar com médios e grandes projetos.</p>
+        <ul>
+            <li><p>Canais no Youtube</p>
+                <ul>
+                    <li><a target="_blank" href="https://www.youtube.com/playlist?list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_">Willian Justen - Mini Curso de Typescript (Playlist).</a></li>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> <a target="_blank" href="https://www.youtube.com/watch?v=lCemyQeSCV8">Matheus Battisti - Curso de Typescript (1 hora).</a></li>
+                </ul>
+            </li>
+            <li><p>Documentação</p>
+                <ul>
+                    <li><a target="_blank" href="https://blog.geekhunter.com.br/introducao-a-typescript">Blog Geek Hunter - Introdução ao Typescript.</a></li>
+                    <li><a target="_blank" href="https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html">Documentação Oficial do Typescript.</a></li>
+                </ul>
+            </li>
+            <li><p>Principais tópicos para aprender</p>
+                <ul>
+                    <li>Interfaces &amp; Types</li>
+                    <li>Tuples &amp; Generics</li>
+                    <li>Enums &amp; &quot;as&quot; Operator</li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <h2 id="NodeJS">NodeJS <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&amp;logo=node.js&amp;logoColor=white" alt="NodeJS"></h2>
+        <p>Node.js é um runtime Javascript que leva a renderização e processamento de códigos para o lado do servidor, desassociando totalmente do browser, possibilitando que você desenvolva aplicações rápidas e estáveis.</p>
+        <ul>
+            <li><p>Canais no Youtube</p>
+                <ul>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> <a target="_blank" href="https://www.youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B">Victor Lima - Guia do Programador - Curso de NodeJS (Playlist).</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/watch?v=fm4_EuCsQwg">Rocketseat - Começando em NodeJS.</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/watch?v=DiXbJL3iWVs">Rocketseat - NodeJS da teoria à pratica.</a></li>
+                </ul>
+            </li>
+            <li><p>Documentação</p>
+                <ul>
+                    <li><a target="_blank" href="https://nodejs.org/pt-br/docs/guides/getting-started-guide">Documentação oficial do NodeJS</a></li>
+                    <li><a target="_blank" href="https://blog.geekhunter.com.br/por-que-usar-node-js-uma-justificativa-passo-a-passo">Blog Geek Hunter - NodeJS</a></li>
+                </ul>
+            </li>
+            <li><p>Principais tópicos para aprender</p>
+                <ul>
+                    <li>Módulos e Dependências</li>
+                    <li>APIs, Restful e Utils</li>
+                    <li>File System, Path, Stream</li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <h2 id="Pre-Processadores-CSS">Pré-Processadores CSS <img src="https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&amp;logo=SASS&amp;logoColor=white" alt="SASS"> <img src="https://img.shields.io/badge/less-2B4C80?style=for-the-badge&amp;logo=less&amp;logoColor=white" alt="Less"></h2>
+        <p>Pré-Processadores CSS são interpretadores de código que leem todo o código gerado e convertem para CSS comum capazes de serem rodados em (quase) todos os navegadores.
+        A produtividade, organização e rapidez em manutenção de código justificam o uso de pré-processadores, sem falar que eles conseguem minificar o código CSS para ficarem mais leves.</p>
+        <ul>
+            <li><p>Principais Pré-Processadores</p>
+                <ul>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> Sass</li>
+                    <li>Less</li>
+                </ul>
+            </li>
+            <li><p>Canais no Youtube</p>
+                <ul>
+                    <li><a target="_blank" href="https://www.youtube.com/watch?v=Wo5t3uUV8n4">Matheus Battisti - Aprenda SASS em 1 hora</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/playlist?list=PLWhiA_CuQkbBSfhS9nzc5BkopBY-22K-D">Filipe Morelli Developer - Curso de Less (Playlist)</a></li>
+                </ul>
+            </li>
+            <li><p>Documentação</p>
+                <ul>
+                    <li><a target="_blank" href="https://sass-lang.com/guide">Documentação oficial do Sass</a></li>
+                    <li><a target="_blank" href="https://lesscss.org/usage">Documentação oficial do Less</a></li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <h2 id="bundles-e-builders">Bundles e Builders <img src="https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&amp;logo=webpack&amp;logoColor=black" alt="Webpack"> <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&amp;logo=vite&amp;logoColor=white" alt="Vite"></h2>
+        <p>Bundles são empacotadores de módulos para Javascript. Um Bundle recebe módulos com dependências e gera ativos estáticos representando esses módulos, normalmente em HTML, CSS e Javascript.</p>
+        <p>Builders são ferramentas de desenvolvimento que melhora significativamente a experiência de desenvolvimento de front-end. É composto por duas partes principais: 
+        Um servidor que atende seus arquivos de origem em módulos ES nativos e um compilador que agrupa seu código para gerar ativos estáticos altamente otimizados para produção.</p>
+        <ul>
+            <li>Principais Bundles
+                <ul>
+                    <li>Webpack</li>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> ParcelJS</li>
+                    <li>RollupJS</li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li><p>Principais Builders</p>
+                <ul>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> Vite</li>
+                    <li>Astro</li>
+                    <li>Snowpack</li>
+                </ul>
+            </li>
+            <li><p>Canais no Youtube</p>
+                <ul>
+                    <li><a target="_blank" href="https://www.youtube.com/watch?v=bKk_4jtXq0Y">Matheus Battisti - Curso de Webpack 5.</a></li>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> <a target="_blank" href="https://www.youtube.com/watch?v=fR0pYguVyQA">Otávio Miranda - Vite + VanillaJS.</a></li>
+                </ul>
+            </li>
+            <li><p>Documentação</p>
+                <ul>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> <a target="_blank" href="https://webpack.js.org/guides/getting-started">Documentação oficial do Webpack</a></li>
+                    <li><a target="_blank" href="https://vitejs.dev/guide">Documentação oficial do Vite</a></li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <h2 id="bibliotecas-e-frameworks">Bibliotecas e Frameworks</h2>
+        <p>Apartir daqui, você pode escolher uma biblioteca ou um framework para seguir seus estudos ou até mesmo aprender mais de um, vai do seu critério, mas o que eu recomendaria é focar em apenas um até você ter um domínio legal antes de passar para outro.</p>
+        <ul>
+            <li><a target="_blank" href="https://www.youtube.com/watch?v=dp0zB4n3MUs">(Vídeo) Rafaella Ballerini - O que são Frameworks e Bibliotecas?</a></li>
+            <li><a target="_blank" href="https://www.treinaweb.com.br/blog/qual-a-diferenca-entre-framework-e-biblioteca">(Blog) Treina Web - Diferença entre Framework e Biblioteca.</a></li>
+        </ul>
+        <hr>
+        <h2 id="React">React <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&amp;logo=react&amp;logoColor=%2361DAFB" alt="React"></h2>
+        <p>O ReactJS é uma das biblioteca mais famosas JavaScript de com foco em criar interfaces de usuário em páginas web.</p>
+        <p>React faz com que a criação de UIs interativas seja uma tarefa fácil. O React é baseado em componentes e esses componentes encapsulados gerenciam seus próprios estados e funções e o React irá atualizar e renderizar de forma eficiente apenas os componentes necessários na medida em que os dados mudam.</p>
+        <p>Vale lembrar que o React é mantido pelo Facebook e utilizado por grandes empresas como Instagram, AirBnB, Netflix e outras.</p>
+        <ul>
+            <li><p>Canais no Youtube</p>
+                <ul>
+                    <li><a target="_blank" href="https://www.youtube.com/watch?v=4BxrxiMMjcA">Mario Souto - React: O minimo de base que você precisa saber.</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/watch?v=37SwqREHRGI">Rocketseat - TUDO que você deve estudar de JavaScript antes do React.</a></li>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> <a target="_blank" href="https://www.youtube.com/playlist?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO">Matheus Battisti - Curso de React (Playlist).</a></li>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> <a target="_blank" href="https://www.youtube.com/watch?v=pDbcC-xSat4">Rocketseat - Começando em ReactJS</a></li>
+                </ul>
+            </li>
+            <li><p>Documentação</p>
+                <ul>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> <a target="_blank" href="https://pt-br.reactjs.org/docs/getting-started.html">Documentação oficial do React</a></li>
+                    <li><a target="_blank" href="https://www.w3schools.com/react/">W3schools - React</a></li>
+                </ul>
+            </li>
+            <li><p>Principais tópicos para aprender</p>
+                <ul>
+                    <li>Componentes e JSX</li>
+                    <li>DOM Virtual e Refs</li>
+                    <li>React Router</li>
+                    <li>React Hooks e Custom Hooks</li>
+                    <li>Estados e gerenciadores de estado</li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <h2 id="Vue">Vue <img src="https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&amp;logo=vuedotjs&amp;logoColor=%234FC08D" alt="Vue.js"></h2>
+        <p>O VueJS é um dos framework mais famosos Javascript para criação de interfaces progressivas e reativas. Vue é perfeitamente capaz de dar poder a Aplicações de Página Única quando usado em conjunto com ferramentas modernas e bibliotecas de apoio.</p>
+        <p>O Vue fornece um modelo de programação declarativo e baseado em componentes e possui uma estrutura e aprendizagem bem simples.
+        Apostando em uma arquitetura enxuta, Vue requer uma configuração mínima na criação de um projeto e pode ser facilmente integrado com uma aplicação já existente através de uma simples tag script. 
+        E por ser progressivo ele pode ser usado em só um pedaço de uma aplicação que precisa otimizar a UI, como o Laravel.</p>
+        <p>O Vue foi criado pelo Evan You, ex desenvolvedor da Google, e o framework é usado por grandes empresas como Alibaba, Nintendo, Baidu e outras.</p>
+        <ul>
+            <li><p>Canais no Youtube</p>
+                <ul>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> <a target="_blank" href="https://www.youtube.com/playlist?list=PLnDvRpP8BnezDglaAvtWgQXzsOmXUuRHL">Matheus Battisti - Curso de Vue 3.</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/watch?v=1W35ITPUp6Y">Cataline - Introdução ao VueJS.</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/watch?v=cSa-SMVMGsE">Programador a Bordo - VueJS em 1 hora.</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/watch?v=9DRY-aNPta0">Tiago Matos - Curso de VueJS #1.</a></li>
+                </ul>
+            </li>
+            <li><p>Documentação</p>
+                <ul>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> <a target="_blank" href="https://vuejs.org/guide/introduction.html">Documentação oficial do Vue</a></li>
+                    <li><a target="_blank" href="https://vuejsbr-docs-next.netlify.app/guide/introduction.html">Documentação traduzida PT-BR.</a></li>
+                    <li><a target="_blank" href="https://www.devmedia.com.br/vue-js-tutorial/38042">Dev Media - VueJS Tutorial.</a></li>
+                </ul>
+            </li>
+            <li><p>Principais tópicos para aprender</p>
+                <ul>
+                    <li>Template Syntax</li>
+                    <li>Conditional Rendering</li>
+                    <li>Watchers</li>
+                    <li>Lifecycle Hooks</li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <h2 id="NextJS">NextJS <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&amp;logo=next.js&amp;logoColor=white" alt="Next JS"></h2>
+        <p>NextJS é um framework para React totalmente pré-configurada que reúne vários recursos para acelerar o desenvolvimento de aplicativos: estamos falando de renderização híbrida e estática, suporte a TypeScript, serviços de manipulação de rotas e muito mais. Criado pela Vercel, o Next.js é uma plataforma de código aberto.</p>
+        <ul>
+            <li><p>Canais no Youtube</p>
+                <ul>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> <a target="_blank" href="https://www.youtube.com/playlist?list=PLnDvRpP8BnezfJcfiClWskFOLODeqI_Ft">Matheus Battisti - Curso de NextJS (Playlist).</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/watch?v=2LS6rP3ykJk">Rocketseat - Desvendando NextJS do zero.</a></li>
+                </ul>
+            </li>
+            <li><p>Documentação</p>
+                <ul>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> <a target="_blank" href="https://nextjs.org/learn/foundations/about-nextjs/what-is-nextjs">Documentação oficial do NextJS.</a></li>
+                    <li><a target="_blank" href="https://blog.geekhunter.com.br/o-que-e-next-js">Blog Geek Hunter - Entendendo NextJS.</a></li>
+                </ul>
+            </li>
+            <li><p>Principais tópicos para aprender</p>
+                <ul>
+                    <li>SSR e SSG</li>
+                    <li>Estrutura NextJS</li>
+                    <li>Server Side Props </li>
+                    <li>API Router</li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <h2 id="NuxtJS">NuxtJS <img src="https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&amp;logo=nuxtdotjs&amp;logoColor=#00DC82" alt="Nuxtjs"></h2>
+        <p>NuxtJS é um framework para VueJS (Sim, um framework para outro framework) que tem os mesmo princípios do NextJS: simplificar o desenvolvimento, roteamento de arquivos, estrutura modulável e muito mais.
+        Seus benefícios são a redução do tempo de interatividade e a melhoria do SEO em relação aos SPAs.</p>
+        <ul>
+            <li><p>Canais no Youtube</p>
+                <ul>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> <a target="_blank" href="https://www.youtube.com/playlist?list=PLcoYAcR89n-oU266D5Dy6DT-H8npny_qJ">Tiago Matos - Curso de NuxtJS.</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/watch?v=mJLeZWl71cA">Tiago Matos - NuxtJS para iniciantes.</a></li>
+                </ul>
+            </li>
+            <li><p>Documentação</p>
+                <ul>
+                    <li><img src="https://cdn-icons-png.flaticon.com/16/1828/1828884.png" alt="star"> <a target="_blank" href="https://nuxtjs.org/docs/get-started/installation">Documentação oficial do NuxtJS.</a></li>
+                    <li><a target="_blank" href="https://medium.com/vue-mastery/free-nuxt-js-tutorial-creating-an-app-1a531bc6045">Gregg Pollack - NuxtJS tutorial.</a></li>
+                </ul>
+            </li>
+            <li><p>Principais tópicos para aprender</p>
+                <ul>
+                    <li>File System Routing</li>
+                    <li>SSR e SSG</li>
+                    <li>Nuxt Router</li>
+                    <li>Meta Tags e SEO</li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <h2 id="Mobile">Mobile</h2>
+        <p>Ferramenta para desenvolvimento de aplicativos mobile.</p>
+        <h3 id="React">React Native <img src="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&amp;logo=react&amp;logoColor=%2361DAFB" alt="React Native"></h3>
+        <p>O React Native permite que você crie aplicativos verdadeiramente nativos tanto para Android e IOS, utilizando React e não compromete a experiência de seus usuários. Ele fornece um conjunto principal de componentes nativos que mapeiam diretamente para os blocos de construção de interface do usuário nativos da plataforma.</p>
+        <ul>
+            <li><p>Canais no Youtube</p>
+                <ul>
+                    <li><a target="_blank" href="https://www.youtube.com/playlist?list=PLdDT8if5attEd4sRnZBIkNihR-_tE612_">One Bit Code - Curso React Native (Playlist).</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/watch?v=ApSHnjXeAq0">Rocketseat - Iniciando em React Native.</a></li>
+                </ul>
+            </li>
+            <li><p>Documentação</p>
+                <ul>
+                    <li><a target="_blank" href="https://reactnative.dev">Documentação oficial do React Native.</a></li>
+                    <li><a target="_blank" href="https://www.devmedia.com.br/react-native-tutorial/32860">Dev Media - React Native Tutorial.</a></li>
+                </ul>
+            </li>
+            <li><p>Principais tópicos para aprender</p>
+                <ul>
+                    <li>Native e Core Components</li>
+                    <li>StyleSheet</li>
+                    <li>Accessibility</li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <h3 id="Flutter">Flutter <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&amp;logo=Flutter&amp;logoColor=white" alt="Flutter"></h3>
+        <p>Flutter é um kit de desenvolvimento criado pela Google em 2015, baseado na linguagem de programação Dart, permitindo que você crie aplicativos para Android e IOS nativamente, baseado em Widgets.</p>
+        <ul>
+            <li><p>Canais no Youtube</p>
+                <ul>
+                    <li><a target="_blank" href="https://www.youtube.com/playlist?list=PLlBnICoI-g-d-J57QIz6Tx5xtUDGQdBFB">Flutterando - Curso de Flutter (Playlist).</a></li>
+                    <li><a target="_blank" href="https://www.youtube.com/watch?v=J4BVaXkwmM8">Filipe Deschamps - A Primeira Aula de Flutter Que Todo Mundo Deveria Ter.</a></li>
+                </ul>
+            </li>
+            <li><p>Documentação</p>
+                <ul>
+                    <li><a target="_blank" href="https://docs.flutter.dev/get-started/install">Documentação oficial do Flutter.</a></li>
+                    <li><a target="_blank" href="https://blog.geekhunter.com.br/flutter">Blog Geek Hunter - Flutter.</a></li>
+                </ul>
+            </li>
+            <li><p>Principais tópicos para aprender</p>
+                <ul>
+                    <li>Widgets</li>
+                    <li>Accessibility</li>
+                    <li>Flutter Structure</li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <h2 id="Testes-Unitarios">Testes Unitários</h2>
+        <p>Basicamente os testes unitários ajudam você a pensar com as expectativas de seu código de uma forma organizada, minimizam o risco e o esforço ao mudar o código e incentivam o design modular. 
+        A ideia de teste unitário é testar uma pequena unidade autônoma de código antes de integrá-la ao sistema maior.</p>
+        <ul>
+            <li>Principais ferramentas de Testes Unitários
+                <ul>
+                    <li>Node Assert</li>
+                    <li>JEST</li>
+                    <li>JUnit</li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <p>Obrigado por ter vindo até aqui. Se gostou, considere dar uma estrela nesse reposiório e compartilhe para alguma pessoa que está começando ou se desenvolvendo na área Front-end.</p>
+        <p>Me siga nas redes sociais:</p>
+        <p><a target="_blank" href="https://twitter.com/euwesleymaik"><img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&amp;logo=Twitter&amp;logoColor=white" alt="Twitter"></a>
+        <a target="_blank" href="https://www.instagram.com/eumaik_"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&amp;logo=Instagram&amp;logoColor=white" alt="Instagram"></a>
+        <a target="_blank" href="https://linkedin.com/in/wesleymaik"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
+        <a target="_blank" href="https://dev.to/wesleymaik"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&amp;logo=dev.to&amp;logoColor=white" alt="Dev.to blog"></a></p>    
+    </section>
+    <br />
+    <footer>
+        Feito com &#128150; por Wesley Maik
+    </footer>
+</body>
+</html>
