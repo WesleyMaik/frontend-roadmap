@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://raw.githubusercontent.com/WesleyMaik/frontend-roadmap/main/thumb.png" alt="Cover Image"/>
+</p>
+
 # Front-end Roadmap
 [ Versão ![EN-US](https://img.shields.io/badge/-EN--US-red?style=flat-square) ](https://github.com/WesleyMaik/frontend-roadmap/blob/main/README-EN.md)
 
