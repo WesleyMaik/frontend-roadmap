@@ -9,6 +9,8 @@ All content rights are fully reserved to the creators, this repository has no co
 
 Do you want to collaborate with this ropository or correct some wrong information? Excellent! All issues are welcome. [Click here to see the issues.](https://github.com/WesleyMaik/frontend-roadmap/issues)
 
+#### The contents marked with ![star](https://cdn-icons-png.flaticon.com/16/1828/1828884.png) indicate that I had the best experience and/or the most didactic I found, both for beginners and for those who are already developing.
+
 ### Follow me on Twitter <a href="https://twitter.com/euwesleymaik" target="_blank">![Twitter Follow](https://img.shields.io/twitter/follow/euwesleymaik?style=social)</a>
 ---
 Smmary
