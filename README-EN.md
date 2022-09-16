@@ -1,3 +1,7 @@
+<p align="center">
+    <img src="https://raw.githubusercontent.com/WesleyMaik/frontend-roadmap/main/thumb.png" alt="Cover Image"/>
+</p>
+
 # Front-end Roadmap
 
 Translated using Google Translate.
