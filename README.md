@@ -360,7 +360,7 @@ A ideia de teste unitário é testar uma pequena unidade autônoma de código an
 - Principais ferramentas de Testes Unitários
     - Node Assert
     - JEST
-    - JUnit
+    - Vitest
 
 ---
 
